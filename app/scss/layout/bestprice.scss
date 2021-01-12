@@ -1,0 +1,49 @@
+.bestprice {
+  @extend .main-page;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  align-items: center;
+
+  .container {
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      padding: 150px 20px;
+    }
+  }
+
+  &__img img {
+    width: 120px;
+    height: 137px;
+    @media (max-width: 768px) {
+      width: 70px;
+      height: 80px;
+    }
+
+  }
+
+  .title {
+    max-width: 970px;
+    padding: 0 0 40px 0;
+    @media (max-width: 768px) {
+      padding: 20px 0;
+    }
+  }
+
+  .hr-gradient {
+    background: linear-gradient(90deg, #FFFFFF 0%, #262A35 100.93%);
+    width: 627px;
+    height: 2px;
+    margin: 0 0 10px 0;
+    @media (max-width: 768px) {
+      display: none;
+    }
+
+
+    }
+  .subtitle {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}

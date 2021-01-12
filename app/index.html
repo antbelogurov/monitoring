@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Metrasensor</title>
+   
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<section class="header" >
+    <div class="container">
+        <a href="" class="header__logo ">
+            <img src="images/main_logo.svg" alt="">
+        </a>
+        <a href="" class="header__mobile-logo">
+            <img src="images/mobile_logo.svg" alt="">
+        </a>
+        <ul class="header__nav">
+            <li  class="nav-item  active" data="main-page">
+                <a href="#main-page">
+                    Home
+                </a>
+            </li>
+            <li  class="nav-item"  data="bestprice">
+                <a href="#bestprice" >
+                    Price
+                </a>
+            </li>
+            <li   class="nav-item"  data="feature">
+                <a href="#feature" >
+                    Feature
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<div class="scroll-container">
+    <section class="main-page section"  data-section-name="main-page">
+        <div class="container">
+            <div class="main-page__content">
+                <div class="title">
+                    Monitoring for Your
+                </div>
+                <div class="title">
+                    Infrastructure and Apps /
+                </div>
+                <div class="title">
+                    AIOps is Here
+                </div>
+                <button class="btn"></button>
+            </div>
+            <div class="main-page__img">
+                <img src="images/main_gradient.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bestprice section"   data-section-name="bestprice">
+        <div class="container">
+            <div class="bestprice__content">
+                
+                <div class="title">
+                    <span class="color"> $8*</span> for host per month.
+                    Regardless of how many
+                    services the host is running.
+                </div>
+                <div class="hr-gradient"></div>
+                <div class="subtitle">
+                    <span class="color"> * </span> First month free of charge
+                </div>
+            </div>
+            <div class="bestprice__img">
+                <img src="images/bestprice.svg" alt="">
+            </div>
+        
+        </div>
+    </section>
+    <section class="feature section" data-section-name="feature">
+        <div class="container">
+            <div class="swiper-container swiper-image-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="title">
+                            We can monitor:
+                        </div>
+                        <div class="text">
+                            [ PostgresQL, Redis, MySQL, ActiveMQ, Cassandra, Jboss, Kafka, Tomcat, Weblogic, Zookeeper,
+                            Nginx, Apache, Ceph, CPU, DISK, MEM, NET, Docker, Elastic, Haproxy, Ping, Prometheus,
+                            RabitMQ ]
+                        </div>
+                        <div class="slider-icons">
+                            <div class="swiper-container swiper-icons">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="images/icons/icon1.png" alt="">
+                                        <img src="images/icons/icon2.png" alt="">
+                                        <img src="images/icons/icon3.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/icons/icon4.png" alt="">
+                                        <img src="images/icons/icon5.png" alt="">
+                                        <img src="images/icons/icon6.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/icons/icon7.png" alt="">
+                                        <img src="images/icons/icon8.png" alt="">
+                                        <img src="images/icons/icon9.png" alt="">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="images/icons/icon10.png" alt="">
+                                        <img src="images/icons/icon11.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="title">
+                            We try to report a problem proactively rather than after the incident.
+                        </div>
+                        <div class="text">
+                            And it really just integrate into any infrastructure.
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="footer">
+    <div class="container">
+        <div class="footer__logo">
+            <img src="images/footer_btn.svg" alt="">
+        </div>
+        <div class="footer__text">
+            There are some features on our websites that may not work without Cookies. To find out more about the
+            Cookies we use and web tracking please visit our <a href="#">Term of Use Page</a>
+        </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="jquery.scrollify.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script  type="module" src="index.js"></script>
+</body>
+</html>

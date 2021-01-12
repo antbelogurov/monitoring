@@ -1,0 +1,93 @@
+@import 'components/c_text';
+@import 'components/c_color';
+@import 'layout/header';
+@import 'layout/main-page';
+@import 'layout/footer';
+@import 'layout/bestprice';
+@import 'layout/feature';
+@import 'plugins/swiper';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: #000000;
+  touch-action: none;
+}
+
+.container {
+  padding: 0 90px;
+  display: flex;
+  margin: 0;
+  max-width: 1440px;
+  @media (max-width: 768px) {
+    padding: 0 20px;
+  }
+  @media (max-width: 576px) {
+    padding: 0 20px;
+  }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background: #000000;
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+
+
+li {
+  list-style: none;
+}
+
+
+
+
+

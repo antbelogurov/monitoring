@@ -1,0 +1,60 @@
+.main-page {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+
+  .container {
+    justify-content: space-between;
+    @media (max-width: 768px) {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  &__content {
+    @media (max-width: 768px) {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+
+    .btn {
+      width: 400px;
+      height: 74px;
+      background: url("./../../images/github_btn.svg") no-repeat;
+      background-size: cover;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 50px;
+      transition: transform 0.2s;
+      @media (max-width: 968px) {
+        width: 336px;
+        height: 60px;
+      }
+      @media (max-width: 768px) {
+        width: 400px;
+        height: 74px;
+        margin: 40px auto;
+      }
+      @media (max-width: 576px) {
+        width: 257px;
+        height: 49px;
+      }
+      &:hover {
+     transform: scale(1.05);
+      }
+    }
+  }
+
+  &__img {
+    height: 256px;
+    max-width: 361px;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+
